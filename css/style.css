@@ -9,6 +9,12 @@
 
 .flex{
     display: flex;
+    
+}
+
+.flex-reverse{
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .ht-60{
@@ -19,8 +25,20 @@
     height: 30px;
 }
 
-.ht-400{
-    height: 400px;
+.ht-350{
+    height: 350px;
+}
+
+.ht-450{
+    height: 450px;
+}
+
+.ht-500{
+    height: 500px;
+}
+
+.ht-600{
+    height: 600px;
 }
 
 .bg-sky{
@@ -37,6 +55,26 @@
 
 .bg-pink{
     background-color: #EE82EF;
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+.bg-grey{
+    background-color: #D3D3D3;
+}
+
+.bg-lt-blue{
+    background-color: #1F90FF;
+}
+
+.bg-salmon{
+    background-color: #FFC0CA;
+}
+
+.bg-black{
+    background-color: #23272A;
 }
 
 .dsp-inbl{
@@ -57,12 +95,38 @@ header{
 }
 
 /* Hero */
-.hero{
-    
-}
+
 
 .hero-content{
     width: 50%;
-    margin: 50px auto;
-    border-radius: 3px;
+    margin: 40px auto;
+    border-radius: 5px;
+}
+
+/* Main */
+
+.main-box{
+    width: 100%;
+    margin: 0 auto;  
+}
+
+.main-box{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+
+
+.box-content{
+    width: 60%;
+    margin: 40px auto;
+    border-radius: 5px;
+
+}
+.box-content-rx{
+    width: 40%;
+    margin: 40px auto;
+    border-radius: 5px;
+
 }
