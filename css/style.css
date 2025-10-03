@@ -95,6 +95,10 @@
     background-color: #1EB2AA;
 }
 
+.bg-acqua{
+    background-color: #7FFFD4;
+}
+
 .dsp-inbl {
     display: inline-block;
 }
@@ -152,17 +156,17 @@ header {
 }
 
 .end-box {
-    width: 70%;
+    width: 60%;
     margin: 30px auto;
     border-radius: 5px;
 }
 
 /* Footer */
 .main-footer{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
+    
 }
-
 
 
 .box-foot{
@@ -181,4 +185,20 @@ header {
     width: 25%;
     margin: 0 auto;
     border-radius: 5px;
+}
+
+.foot-cont{
+width: 100%;
+margin: 20px auto;
+border-bottom: 1px solid #fff;
+border-top: 1px solid #fff;
+
+}
+
+.footer-bar{
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
 }
