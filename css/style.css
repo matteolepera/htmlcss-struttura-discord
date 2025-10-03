@@ -19,6 +19,10 @@
     height: 30px;
 }
 
+.ht-400{
+    height: 400px;
+}
+
 .bg-sky{
     background-color: #ADD8E6;
 }
@@ -27,6 +31,13 @@
     background-color: #DAA520;
 }
 
+.bg-blue{
+    background-color: #00008B;
+}
+
+.bg-pink{
+    background-color: #EE82EF;
+}
 
 .dsp-inbl{
     display: inline-block;
@@ -43,4 +54,15 @@ header{
     justify-content: space-between;
     align-items: center;
 
+}
+
+/* Hero */
+.hero{
+    
+}
+
+.hero-content{
+    width: 50%;
+    margin: 50px auto;
+    border-radius: 3px;
 }
