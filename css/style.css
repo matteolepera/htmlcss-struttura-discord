@@ -1,5 +1,5 @@
 /* RESET */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,92 +7,96 @@
 
 /* Utility */
 
-.flex{
+.flex {
     display: flex;
-    
+
 }
 
-.flex-reverse{
+.flex-reverse {
     display: flex;
     flex-direction: row-reverse;
 }
 
-.container{
-     width: 100%;
+.container {
+    width: 100%;
     margin: 0 auto;
 
 }
 
-.ht-60{
+.ht-60 {
     height: 60px;
 }
 
-.ht-30{
+.ht-30 {
     height: 30px;
 }
 
-.ht-350{
+.ht-350 {
     height: 350px;
 }
 
-.ht-450{
+.ht-450 {
     height: 450px;
 }
 
-.ht-500{
+.ht-500 {
     height: 500px;
 }
 
-.ht-600{
-    height: 600px;
+.ht-700 {
+    height: 700px;
 }
 
-.bg-sky{
+.bg-sky {
     background-color: #ADD8E6;
 }
 
-.bg-yellow{
+.bg-yellow {
     background-color: #DAA520;
 }
 
-.bg-blue{
+.bg-blue {
     background-color: #00008B;
 }
 
-.bg-pink{
+.bg-pink {
     background-color: #EE82EF;
 }
 
-.bg-white{
+.bg-white {
     background-color: #fff;
 }
 
-.bg-grey{
+.bg-grey {
     background-color: #D3D3D3;
 }
 
-.bg-lt-blue{
+.bg-lt-blue {
     background-color: #1F90FF;
 }
 
-.bg-salmon{
+.bg-salmon {
     background-color: #FFC0CA;
 }
 
-.bg-black{
+.bg-black {
     background-color: #23272A;
 }
 
-.dsp-inbl{
+.bg-green {
+    background-color: #228B23;
+}
+
+.dsp-inbl {
     display: inline-block;
 }
 
 /* Header */
-header{
- align-items: center;
+header {
+    align-items: center;
 }
 
-.header-bar{
+.header-bar {
     width: 60%;
     margin: 0 auto;
     justify-content: space-between;
@@ -103,7 +107,7 @@ header{
 /* Hero */
 
 
-.hero-content{
+.hero-content {
     width: 50%;
     margin: 40px auto;
     border-radius: 5px;
@@ -111,29 +115,37 @@ header{
 
 /* Main */
 
-.main-container{
+.main-container {
     width: 100%;
     margin: 0 auto;
-    
+
 }
 
-.main-box{
+.main-box {
     width: 60%;
     margin: 0 auto;
-    
+
 }
 
 
 
-.box-content{
+.box-content {
     width: 60%;
     margin: 40px auto;
     border-radius: 5px;
 
 }
-.box-content-rx{
+
+.box-content-rx {
     width: 40%;
     margin: 40px auto;
     border-radius: 5px;
 
+}
+
+.end-box {
+    width: 70%;
+    margin: 30px auto;
+    border-radius: 5px;
+    ß
 }
