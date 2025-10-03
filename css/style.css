@@ -1,0 +1,46 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utility */
+
+.flex{
+    display: flex;
+}
+
+.ht-60{
+    height: 60px;
+}
+
+.ht-30{
+    height: 30px;
+}
+
+.bg-sky{
+    background-color: #ADD8E6;
+}
+
+.bg-yellow{
+    background-color: #DAA520;
+}
+
+
+.dsp-inbl{
+    display: inline-block;
+}
+
+/* Header */
+header{
+ align-items: center;
+}
+
+.header-bar{
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
